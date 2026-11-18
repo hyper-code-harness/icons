@@ -1,11 +1,18 @@
 {
   "name": "icons",
-  "private": true,
+  "version": "1.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyper-code-harness/icons"
+  },
   "procs": {
     "src": "src",
     "label": "Icons",
     "icon": "ph-shapes",
     "description": "Search local Lucide SVG icons and install consistently padded chat icons."
+  },
+  "scripts": {
+    "test": "bun ${HYPER_CODE:-../hyper-code}/script/plugin-test.ts ."
   }
 }
